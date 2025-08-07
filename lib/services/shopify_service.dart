@@ -3,8 +3,10 @@ import 'package:http/http.dart' as http;
 import '../models/product.dart';
 
 class ShopifyService {
-  static const String shopDomain = 'frank-dev-1.myshopify.com';
-  static const String storefrontToken = '065229935565e672fdfbc9b257b282ea';
+  //static const String shopDomain = 'frank-dev-1.myshopify.com';
+  static const String shopDomain = 'smg-test-frontend.myshopify.com';
+  //static const String storefrontToken = '065229935565e672fdfbc9b257b282ea';
+  static const String storefrontToken = '6d7572e370b1cf4a9f8c2dc2c66f1cd3';  
 
   static Future<List<Product>> fetchProducts() async {
     final url = Uri.https(shopDomain, '/api/2024-07/graphql.json');
