@@ -4,6 +4,9 @@ App que trae productos de shopify
 
 ## Getting Started
 
+> flutter pub get
+> flutter run
+
 Los productos estan en la tienda shopify
 
 https://smg-test-frontend.myshopify.com/
