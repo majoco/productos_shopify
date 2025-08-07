@@ -9,7 +9,7 @@ Los productos estan en la tienda shopify
 https://smg-test-frontend.myshopify.com/
 pass: eubiad
 
-Se visualizan en una lista en la aplicacion en flutter con la imagen y tags relacionados
+Se visualizan en una lista en la aplicacion en flutter con la imagen y precio
 
 En esta tienda se crearon unas secciones con funcionamiento y parametros de entrada para la configuración en el customize para cada sección, tambien para demostrar mis habilidades de estilo
 
