@@ -19,7 +19,7 @@ class ShopifyService {
       body: jsonEncode({
         'query': '''
         {
-          products(first: 10) {
+          products(first: 10, reverse: true) {
             edges {
               node {
                 id

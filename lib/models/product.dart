@@ -4,7 +4,7 @@ class Product {
   final String description;
   final String imageUrl;
   final String price;
-  final String handle;
+  final String handle;  
 
   Product({
     required this.id,
@@ -12,7 +12,7 @@ class Product {
     required this.description,
     required this.imageUrl,
     required this.price,
-    required this.handle,
+    required this.handle,    
   });
 
   factory Product.fromJson(Map<String, dynamic> json) {
@@ -27,7 +27,7 @@ class Product {
       description: json['description'] ?? '',
       imageUrl: image,
       price: variant['price']['amount'],
-      handle: json['handle'],
+      handle: json['handle']
     );
   }
 }
